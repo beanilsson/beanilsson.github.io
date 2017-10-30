@@ -17,4 +17,4 @@ I wrote these during my time at the DMU deparment at Mittmedia:
 [Mobprogramming - The Takeaways](http://dev.mittmedia.se/team/blogging/writer/mobbprogrammering/mobprogramming/2017/04/13/mobprogramming-pros-and-cons.html) 
 
 ## Contact me?
-Sure, just send me a [mail](mailto:theflux37@gmail.com)!
+Sure, just send me a [mail](mailto:beanilsson1@gmail.com)!
