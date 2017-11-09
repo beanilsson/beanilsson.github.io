@@ -261,6 +261,7 @@ There are three categories to which an object can belong to. **Native**, **Host*
 * Host objects are brought by the browser. Examples of these are `window`, `document` etc.
 * User-defined objects are created by the programmer.
 A fundamental concept in JavaScript is that every element that can hold properties and methods, are objects. Primitive data types however, are not objects.
+
 ### Sources:
 https://www.w3schools.com/js/js_functions.asp
 http://markdaggett.com/blog/2013/02/15/functions-explained/
