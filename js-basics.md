@@ -1,8 +1,14 @@
 # JavaScript Basics
-I started writing these notes down as a result of reading about the (NodeJS Knowledge Challenge)[Taken from: https://medium.freecodecamp.org/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69].
+I started writing these notes down as a result of reading about the [NodeJS Knowledge Challenge](Taken from: https://medium.freecodecamp.org/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69).
 They will contain information about: functions, variables, scopes, binding, this keyword, new keyword, closures, classes, module patterns, prototypes, callbacks, and promises. Various methods that can be used on Numbers, Strings, Arrays, Sets, Objects, and Maps. Etc., etc.
 
-## Functions
+## Index
+* [Functions](#1)
+* [Variables](#2)
+* [Is JavaScript Object-Oriented?](#3)
+* [Sources](#3)
+
+## <a name="1"></a>Functions
 A javascript function is a named block of code that is executed when something calls it.
 ```javascript
 function myFunction(p1, p2) {
@@ -27,6 +33,16 @@ var argument2 = 2;
 myFunction(argument1, argument2);
 ```
 Inside the function, the arguments (**parameters**) behave as local variables.
+### Parameters
+Parameters can have pre-defined values. This is useful when a parameter has to be set but for some reason it won't always receive a value from an argument, or when you want a default option to be overrideable.
+```javascript
+function myFunction(a, b, c=null) {
+    console.log(a, b, c);
+}
+
+myFunction(1, 2); // => 1 2 null
+myFunction(1, 2, 3); // => 1 2 3
+```
 ### Arguments
 Since there are two types of variables, complex and primitive. This can have unforseen effects within a function depending on what type of argument we pass to the function.
 A complex type variable is passed by **reference** to the function, rather than a copy of the variable. JavaScript sends a pointer to the variables location in memory. If a primitive type variable is passed as a **value** to the function.
@@ -53,6 +69,22 @@ function(num) {
 
 // => 1
 console.log(num);
+```
+It is possible to call a function with more than or less than the number of arguments it expects. If a function expecting 3 arguments only receives 2, the third will be undefined. In the case of calling with too many arguments, the superfluous argument(s) will be ignored.
+```javascript
+// calling the function with too many arguments
+function myFunction(a, b, c){
+    console.log(a, b, c);
+}
+
+myFunction(1, 2, 3, 4, 5); // => 1 2 3
+
+// calling the function with too few arguments
+function myFunction(a, b, c){
+    console.log(a, b, c);
+}
+
+myFunction(1, 2); // => 1 2 undefined
 ```
 ### Calling a function
 There are three ways for a function to be called, invoked.
@@ -179,10 +211,10 @@ function message() {
 typeof message // => function
 message instanceof Object; // => true
 ```
-## Variables
+## <a name="2"></a>Variables
 Variables can be of two types. **Complex type**, objects and arrays, and **Primitive Type**, undefined, null, boolean, string and number.
 
-## Is JavaScript Object-Oriented?
+## <a name="3"></a>Is JavaScript Object-Oriented?
 Yes. No. Is the short answer. The slightly longer answer is that JavaScript is Object based. It support polymorphism, encapsulation and inheritance. But by utilizing inheritance, the encapsulation would suffer. So that means JavaScript would not qualify as purely OO. A fundamental concept in JavaScript is that every element that can hold properties and methods, are objects. Primitive data types however, are not objects.
 ### The object
 *Why objects?* To be able to reuse code more often.
@@ -261,8 +293,7 @@ There are three categories to which an object can belong to. **Native**, **Host*
 * Host objects are brought by the browser. Examples of these are `window`, `document` etc.
 * User-defined objects are created by the programmer.
 
-
-### Sources:
+### <a name="4"></a>Sources:
 https://www.w3schools.com/js/js_functions.asp
 http://markdaggett.com/blog/2013/02/15/functions-explained/
 https://stackoverflow.com/a/3344397/2750877
