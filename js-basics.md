@@ -1,5 +1,5 @@
 # JavaScript Basics
-I started writing these notes down as a result of reading about the [NodeJS Knowledge Challenge](Taken from: https://medium.freecodecamp.org/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69).
+I started writing these notes down as a result of reading about the [NodeJS Knowledge Challenge](https://medium.freecodecamp.org/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69).
 They will contain information about: functions, variables, scopes, binding, this keyword, new keyword, closures, classes, module patterns, prototypes, callbacks, and promises. Various methods that can be used on Numbers, Strings, Arrays, Sets, Objects, and Maps. Etc., etc.
 
 ## Index
