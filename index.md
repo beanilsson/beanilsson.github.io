@@ -19,3 +19,6 @@ I wrote these during my time at the DMU deparment at Mittmedia:
 
 ## Contact me?
 Sure, just send me an [email](mailto:beanilsson1@gmail.com), check out my [github profile](https://github.com/beanilsson) or take a gander at [linkedin](https://www.linkedin.com/in/beatrice-nilsson-a02718a7/)!
+
+### About the site
+Using the Jekyll based [Hacker](https://github.com/pages-themes/hacker) theme,
