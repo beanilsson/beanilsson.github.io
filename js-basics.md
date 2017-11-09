@@ -183,7 +183,7 @@ message instanceof Object; // => true
 Variables can be of two types. **Complex type**, objects and arrays, and **Primitive Type**, undefined, null, boolean, string and number.
 
 ## Is JavaScript Object-Oriented?
-Yes. No. Is the short answer. The slightly longer answer is that JavaScript is Object based. It support polymorphism, encapsulation and inheritance. But by utilizing inheritance, the encapsulation would suffer. So that means JavaScript would not qualify as purely OO.
+Yes. No. Is the short answer. The slightly longer answer is that JavaScript is Object based. It support polymorphism, encapsulation and inheritance. But by utilizing inheritance, the encapsulation would suffer. So that means JavaScript would not qualify as purely OO. A fundamental concept in JavaScript is that every element that can hold properties and methods, are objects. Primitive data types however, are not objects.
 ### The object
 *Why objects?* To be able to reuse code more often.
 An object is a collection of properties. These can consist of primitive data types, other objects or methods, (functions). A **Constructor Function** is a function that is used to create an object. There are a few built in objects like `Array`, `Image` and `Date`.
@@ -260,7 +260,7 @@ There are three categories to which an object can belong to. **Native**, **Host*
 * Native objects are supplied by JavaScript. Examples of these are `String`, `Number`, `Array`, `Math` etc.
 * Host objects are brought by the browser. Examples of these are `window`, `document` etc.
 * User-defined objects are created by the programmer.
-A fundamental concept in JavaScript is that every element that can hold properties and methods, are objects. Primitive data types however, are not objects.
+
 
 ### Sources:
 https://www.w3schools.com/js/js_functions.asp
