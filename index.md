@@ -1,6 +1,6 @@
 # Hello World!
 This site is not going to be updated often, actually, assume that everything that you'll read here is horribly out of date.
-Do the [Nodejs Knowledge Challenge](https://medium.freecodecamp.org/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69) or [follow my progress](/nodejs-knowledge-challenge). I am also jotting down what I'm learning about JS to answer the questions.
+Do the [Nodejs Knowledge Challenge](https://medium.freecodecamp.org/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69) or [follow my progress](/nodejs-knowledge-challenge). I am also [jotting down](/js-basics) what I'm learning about JS to answer the questions. If you read something that seems weird or that I might have gotten wrong, don't be scared to create an educational PR explaining what I misunderstood.
 
 ## About me
 I am a webdeveloper by profession, hobby guitarist and selective pc gamer in my sparetime. Check out my musical musings [here](https://soundcloud.com/shachath_swe/).
