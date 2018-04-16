@@ -3,7 +3,7 @@
 puts "Hello World!"
 ```
 That's it, that's how you write a Hello World program in Crystal. Pretty neat huh? But how do I run it? You might ask, well, come along and I'll show you!
-*Note: I am writing this guide as I am learning Crystal myself. So I reserve the right to change and edit as much as I want as I learn more*
+*Note: I am writing this guide as I am learning Crystal myself. So I reserve the right to change and edit as much as I want as I learn more. Also, my primary resources are [the official documentation](https://crystal-lang.org/docs/) and [the official API](https://crystal-lang.org/api/0.24.2/) if nothing else is stated. The version I'm using is `0.24.2`, the latest version as of date.*
 # Installing the Crystal Compiler
 There are distributions available for a wide range of operating systems, below I shall list instructions for Debian and Ubuntu. For a complete list, or more installation details, [please refer to this page.](https://crystal-lang.org/docs/installation/)
 ## Debian and Ubuntu
