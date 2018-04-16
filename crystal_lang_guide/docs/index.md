@@ -48,3 +48,7 @@ So, utilizing the information we've gathered up until now, we should now be able
 Start by creating a file named `hello_world.cr`. Write `puts "Hello World!"` to the file and save it. Then, in your terminal, go to the directory where you saved the file, type $ crystal hello_world.cr and press enter.
 After the compiler has done its magic, the text **Hello World!** should be visible in the terminal window.
 Good job! You've just created and run your first Crystal program.
+
+# Want more?
+* An analysis of the [simple server example](helloServer.md).
+* Read about [requiring files](requiring.md).
