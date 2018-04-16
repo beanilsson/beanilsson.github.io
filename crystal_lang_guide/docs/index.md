@@ -30,7 +30,7 @@ sudo apt-get update
 sudo apt-get install crystal
 ```
 ## Crystal Box
-I've created a Vagrant box with a Crystal installation for the ones, including myself, who are into that sort of thing. Which can be found here: https://github.com/beanilsson/crystal_development
+I've created a Vagrant box with a Crystal installation for the ones, including myself, who are into that sort of thing. Which can be found [here](https://github.com/beanilsson/crystal_development).
 
 # Using the Crystal Compiler
 A Crystal file ends with `.cr`, and there are two ways to compile and run a Crystal program.
