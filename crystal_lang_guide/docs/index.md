@@ -1,3 +1,14 @@
+# A brief introduction
+The Crystal programming language aims to be the following:
+
+* Have a syntax similar to Ruby (but compatibility with it is not a goal)
+* Statically type-checked but without having to specify the type of variables or method arguments.
+* Be able to call C code by writing bindings to it in Crystal.
+* Have compile-time evaluation and generation of code, to avoid boilerplate code.
+* Compile to efficient native code.
+
+The reason for my interest in Crystal is mainly the similarities to Ruby syntax, as my professional career started at a company that used Ruby on Rails for most of its applications I couldn't end up doing anythin but loving Ruby, while being as efficiently run as a C program.
+
 # Hello World!
 ```
 puts "Hello World!"
@@ -41,7 +52,7 @@ and
 ```
 $ crystal run hello_world.cr
 ```
-The difference between these two are unbeknownst to me as of date.
+The difference in result between these two are unbeknownst to me as of date.
 For more details on the compiler and what it is capable of, [read this section!](./compilerDetails.md)
 # Hello World pt.2
 So, utilizing the information we've gathered up until now, we should now be able to create our Hello World program and run it!
@@ -51,4 +62,9 @@ Good job! You've just created and run your first Crystal program.
 
 # Want more?
 * An analysis of the [simple server example](helloServer.md).
-* Read about [requiring files](requiring.md).
+* [Requiring files](requiring.md).
+* [Local variables](localVariables.md).
+* [Classes and methods](classesAndMethods.md).
+* [Literals](literals.md)
+* [Type Inference](typeInference.md)
+* [Compiler details](compilerDetails.md)
