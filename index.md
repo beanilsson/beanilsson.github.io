@@ -18,7 +18,7 @@ I wrote these during my time at the DMU deparment at Mittmedia:
 * [Mobprogramming - The Takeaways](http://dev.mittmedia.se/team/blogging/writer/mobbprogrammering/mobprogramming/2017/04/13/mobprogramming-pros-and-cons.html)
 
 ## Crystal Lang guide
-I started writing a guide as a source for my own learning. Feel free to check it out [here]("./crystal_lang_guide/index.md").
+I started writing a guide as a source for my own learning. Feel free to check it out [here]("./crystal_lang_guide/docs/index.md").
 
 ## Contact me?
 Sure, just send me an [email](mailto:beanilsson1@gmail.com), check out my [github profile](https://github.com/beanilsson) or take a gander at [linkedin](https://www.linkedin.com/in/beatrice-nilsson-a02718a7/)!
