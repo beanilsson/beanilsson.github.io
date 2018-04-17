@@ -168,13 +168,36 @@ or
      awesome" #=> "Cats are awesome"
 ```
 ### Heredoc
-Heredocs can also be used to write strings across multiple lines. Read more about them [here.](https://crystal-lang.org/docs/syntax_and_semantics/literals/string.html)
+Heredocs can also be used to write strings across multiple lines. Read more about them [here.](https://crystal-lang.org/docs/syntax_and_semantics/literals/string.htm)
 ## Symbol
-
-Symbols are constants that are identified by a name without having to give them a numeric value.
+**Sample values:**
 ```
 :hello
 :"123"
 :"cats are awesome"
 ```
-Internally a symbol is represented as an Int32. They can't be dynamically created.
+**Details:**
+Symbols are constants, identified by a name without having to give them a numeric value. Internally a symbol is represented as an Int32. They can't be dynamically created.
+## Array
+**Sample values:** `[1, 2, 3]`, %w(one two three)
+**Details:** Arrays are ordered and integer-indexed generic collections of a specific type `T`. They are usualy created using an array literal defined by `[]` and elements separated by `,`.
+### Generic Type Argument
+The elements within the literal decide the array's generic type argument `T`. If all elements are of the same type, `T` will equal to that, if the elements are of different types, `T` will be a union of all those types.
+```
+[1, 2, 3] #=> Array(Int32)
+[1, "hello", 'x'] #=> Array(Int32 | String | Char)
+```
+It is possible to explicitly specify a type by adding the keyword `of` and the desired type. For example: ``
+
+
+An explicit type can be specified by immediately following the closing bracket with of and a type, each separated by whitespace. This overwrites the inferred type and can be used for example to create an array that holds only some types initially but can accept other types later.
+
+array_of_numbers = [1, 2, 3] of Number  # => Array(Number)
+array_of_numbers + [0.5]                # => [1, 2, 3, 0.5]
+
+array_of_int_or_string = [1, 3, 4] of Int32 | String  # => Array(Int32 | String)
+array_of_int_or_string + ["foo"]                      # => [1, 2, 3, "foo"]
+
+Empty array literals always need a type specification::
+
+[] of Int32  # => Array(Int32).new
