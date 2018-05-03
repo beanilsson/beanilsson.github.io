@@ -20,6 +20,9 @@ I wrote these during my time at the DMU deparment at Mittmedia:
 ## Crystal Lang guide
 I started writing a guide as a source for my own learning. Feel free to check it out [here](./crystal_lang_guide/docs/index.md).
 
+## Notes on flex and bison
+I like to write while learning, apparently ... These [notes](https://beanilsson.github.io/flex_and_bison/) are showcasing my progress learning to use flex and bison.
+
 ## Contact me?
 Sure, just send me an [email](mailto:beanilsson1@gmail.com), check out my [github profile](https://github.com/beanilsson) or take a gander at [linkedin](https://www.linkedin.com/in/beatrice-nilsson-a02718a7/)!
 
