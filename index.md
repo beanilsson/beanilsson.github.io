@@ -8,8 +8,8 @@ I am a (web)developer by profession, hobby guitarist and selective pc gamer in m
 During my professional years so far, I've encountered the regular webdevelopement tools like HTML, CSS and JS, but also Ruby (and Rails), NodeJS and most lately, EPiServer (C# and .NET).
 
 In my spare time however, I find myself moving towards languages like C++ and Rust. I've also dabbled a bit in Python and image recognition, if you also want to dive into the subjetct, I found these youtube playlists extremely helpful for getting started:
-* [Image Recognition] (https://www.youtube.com/playlist?list=PLQVvvaa0QuDffXBfcH9ZJuvctJV3OtB8A)
-* [OpenCV with Python for Image and Video Analysis] (https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
+* [Image Recognition](https://www.youtube.com/playlist?list=PLQVvvaa0QuDffXBfcH9ZJuvctJV3OtB8A)
+* [OpenCV with Python for Image and Video Analysis](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
 
 ## Weapons of choice
 * "I can see clearly now the rain is gone." ~ Johnny Nash. There is only one editor and it's called Emacs. All hail the mighty Stallman! You can find my completely unstructured config [here](https://github.com/beanilsson/emacs_config). I am currently working on getting [Indium](https://github.com/NicolasPetton/Indium) to play nicely.
@@ -18,7 +18,7 @@ In my spare time however, I find myself moving towards languages like C++ and Ru
 ## Blog posts
 * [Mobprogramming, observations (SWE)](http://dev.mittmedia.se/team/blogging/writer/mobbprogrammering/2017/01/13/mobbprogrammering.html)
 * [Mobprogramming - The Takeaways](http://dev.mittmedia.se/team/blogging/writer/mobbprogrammering/mobprogramming/2017/04/13/mobprogramming-pros-and-cons.html)
-* [I wrote a database! Say what?] (./iwroteadb.md)
+* [I wrote a database! Say what?](./iwroteadb.md)
 
 ## Crystal Lang guide
 I started writing a guide as a source for my own learning. Feel free to check it out [here](./crystal_lang_guide/docs/index.md).
