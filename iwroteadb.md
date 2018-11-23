@@ -5,7 +5,7 @@ First of all, before you start imagine something like PostgreSQL or MongoDB, let
 Because I wanted to. It's as simple as that. And well, because I wanted to put what I had learned in a C++ to use. I can't remember when, or why, I got the idea of writing my own database. If I can make a guess it was probably when I was diving into MongoDB and realising that working with databases doesn't always have to be cumbersome, but sometimes, it can actually be quite nice too.
 
 ## How?
-I'm going to be honest, I've read a lot about writing programming languages and how to implement them, ([this tutorial] (http://lisperator.net/pltut/) is great), and many of the concepts are the same, specifically the user input parsing and the corresponding code structure.
+I'm going to be honest, I've read a lot about writing programming languages and how to implement them, ([this tutorial](http://lisperator.net/pltut/) is great), and many of the concepts are the same, specifically the user input parsing and the corresponding code structure.
 
 With the preamble quote about what a database is, together with my (scarce) knowledge of C++ and what I've previous read about programming language implementation, I set sail! The outcome? BedlamDB.
 
