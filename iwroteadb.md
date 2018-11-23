@@ -44,7 +44,7 @@ The structure of a BedlamDB database looks like this:
 ```
 {dataitem}{more data}{i am batman}{abc123}
 ```
-Where each entry is saved within {} and the last entry is stored last, in this case `{abc123}`. There is currentyl no support for characters like ÅÄÖ.
+Where each entry is saved within {} and the last entry is stored last, in this case `{abc123}`. There is currently no support for characters like ÅÄÖ.
 
 ## Where's the code?!
-The source code for BedlamDB can be found (here)[https://github.com/beanilsson/BedlamDB].
+The source code for BedlamDB can be found [here](https://github.com/beanilsson/BedlamDB).
