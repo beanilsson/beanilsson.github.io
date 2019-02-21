@@ -16,9 +16,10 @@ In my spare time however, I find myself moving towards languages like C++ and Ru
 * Vagrant is basically the Emacs of dev environments. Nothing more to say.
 
 ## Blog posts
-* [Mobprogramming, observations (SWE)](http://dev.mittmedia.se/team/blogging/writer/mobbprogrammering/2017/01/13/mobbprogrammering.html)
-* [Mobprogramming - The Takeaways](http://dev.mittmedia.se/team/blogging/writer/mobbprogrammering/mobprogramming/2017/04/13/mobprogramming-pros-and-cons.html)
+* [Mobprogramming, observations (SWE) (External)](http://dev.mittmedia.se/team/blogging/writer/mobbprogrammering/2017/01/13/mobbprogrammering.html)
+* [Mobprogramming - The Takeaways (External)](http://dev.mittmedia.se/team/blogging/writer/mobbprogrammering/mobprogramming/2017/04/13/mobprogramming-pros-and-cons.html)
 * [I wrote a database! Say what?](./iwroteadb.md)
+* [How difficult can it be to export a pdf?](./convert_pdf_rant.md)
 
 ## Crystal Lang guide
 I started writing a guide as a source for my own learning. Feel free to check it out [here](./crystal_lang_guide/docs/index.md).
